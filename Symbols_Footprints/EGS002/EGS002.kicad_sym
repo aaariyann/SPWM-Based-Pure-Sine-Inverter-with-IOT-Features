@@ -1,0 +1,179 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "EGS002" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "M" (id 0) (at -2.54 25.4 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "EGS002" (id 1) (at -2.54 22.86 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "EGS002:EGS002" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MF" "EGmicro" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Description" "\n                        \n                            EGS002 is a driver board specific for single phase sinusoid inverter. It uses ASIC EG8010 as control chip and IR2110S as driver chip. \n                        \n" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Package" "Package" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Price" "None" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "SnapEDA_Link" "https://www.snapeda.com/parts/EGS002/EGmicro/view-part/?ref=snap" (id 8) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MP" "EGS002" (id 9) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Availability" "Not in stock" (id 10) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "Check_prices" "https://www.snapeda.com/parts/EGS002/EGmicro/view-part/?ref=eda" (id 11) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "EGS002_0_0"
+      (rectangle (start -5.08 -25.4) (end 7.62 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin bidirectional line (at -10.16 17.78 0) (length 5.08)
+        (name "IFB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 15.24 0) (length 5.08)
+        (name "GND"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 12.7 0) (length 5.08)
+        (name "1LO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 10.16 0) (length 5.08)
+        (name "GND1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 7.62 0) (length 5.08)
+        (name "VS1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 5.08 0) (length 5.08)
+        (name "1HO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 2.54 0) (length 5.08)
+        (name "GND2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 0.0 0) (length 5.08)
+        (name "2LO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -2.54 0) (length 5.08)
+        (name "VS2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$9"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -5.08 0) (length 5.08)
+        (name "2HO"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -7.62 0) (length 5.08)
+        (name "GND3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -10.16 0) (length 5.08)
+        (name "+12V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -12.7 0) (length 5.08)
+        (name "GND4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$13"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -15.24 0) (length 5.08)
+        (name "+5V"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$14"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -17.78 0) (length 5.08)
+        (name "VFB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$15"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -20.32 0) (length 5.08)
+        (name "TFB"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$16"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin bidirectional line (at -10.16 -22.86 0) (length 5.08)
+        (name "FAN"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P$17"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)
