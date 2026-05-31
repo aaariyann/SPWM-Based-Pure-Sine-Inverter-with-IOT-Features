@@ -2689,12 +2689,6 @@
 		(uuid "0c0ac95c-a155-45a0-84f9-ffda68c0d32d")
 	)
 	(junction
-		(at 163.83 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c0b527c-7542-4580-a6db-3e6beb31aa30")
-	)
-	(junction
 		(at 149.86 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2717,12 +2711,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36eadfe5-6134-4fd1-88b8-99d3dc3ae275")
-	)
-	(junction
-		(at 176.53 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bb7263f-dbbc-45a3-911c-6ad691748039")
 	)
 	(junction
 		(at 143.51 120.65)
@@ -2755,6 +2743,12 @@
 		(uuid "6c1f5632-ee24-4839-8702-5de746d7fe9a")
 	)
 	(junction
+		(at 176.53 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "780e6a29-db8b-48be-856c-6033a3f243a8")
+	)
+	(junction
 		(at 72.39 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2771,6 +2765,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8217221f-8286-414b-8f24-d112aae2e879")
+	)
+	(junction
+		(at 165.1 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90a6f9dc-a1a0-4c9d-82be-7766803894a0")
 	)
 	(junction
 		(at 101.6 96.52)
@@ -3134,6 +3134,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 45.72) (xy 176.53 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d412e79-18e8-4c54-bbe4-55b471959583")
+	)
+	(wire
+		(pts
 			(xy 143.51 120.65) (xy 147.32 120.65)
 		)
 		(stroke
@@ -3334,7 +3344,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 45.72) (xy 176.53 45.72)
+			(xy 149.86 45.72) (xy 165.1 45.72)
 		)
 		(stroke
 			(width 0)
@@ -3354,7 +3364,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 72.39) (xy 222.25 111.76)
+			(xy 222.25 72.39) (xy 222.25 74.93)
 		)
 		(stroke
 			(width 0)
@@ -3381,16 +3391,6 @@
 			(type default)
 		)
 		(uuid "4ed3df2d-3465-4a24-b0ec-7819e3593113")
-	)
-	(wire
-		(pts
-			(xy 149.86 45.72) (xy 163.83 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ab4987-029f-4087-bcc2-7ef22bdb2187")
 	)
 	(wire
 		(pts
@@ -3451,6 +3451,16 @@
 			(type default)
 		)
 		(uuid "60da0f8e-dd05-47d7-9f2f-4d11275fb253")
+	)
+	(wire
+		(pts
+			(xy 165.1 53.34) (xy 176.53 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "644ed0cd-6b2f-4c47-ab39-b533bfcc62e6")
 	)
 	(wire
 		(pts
@@ -3694,16 +3704,6 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 53.34) (xy 176.53 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97db6a89-afda-48b5-8501-ea1f365e2208")
-	)
-	(wire
-		(pts
 			(xy 176.53 53.34) (xy 187.96 53.34)
 		)
 		(stroke
@@ -3771,6 +3771,16 @@
 			(type default)
 		)
 		(uuid "a4cfa347-9ed6-44a4-80a3-554d783146f5")
+	)
+	(wire
+		(pts
+			(xy 222.25 82.55) (xy 222.25 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a507e731-9a00-43a6-af88-a3f0ebba6bb3")
 	)
 	(wire
 		(pts
@@ -4373,88 +4383,6 @@
 		(uuid "ff614606-891f-4b68-9b91-5bcc8c164b20")
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 163.83 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0f49ff3e-1839-4a44-91ff-1f634ee1901c")
-		(property "Reference" "C7"
-			(at 167.64 47.6249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 167.64 50.1649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
-			(at 163.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 163.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 163.83 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6a9cd79a-86d3-474c-b19b-04d03008560d")
-		)
-		(pin "2"
-			(uuid "f87bf44a-1e74-4148-8a64-1babcdfa9d40")
-		)
-		(instances
-			(project "SPWM_Inv"
-				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 113.03 34.29 0)
 		(unit 1)
@@ -4725,7 +4653,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00078_1x02_P10.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 77.47 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -5914,6 +5842,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 222.25 78.74 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "66853d16-4c9e-447d-a7fd-e55bac85aaba")
+		(property "Reference" "R13"
+			(at 217.678 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100k"
+			(at 219.71 78.74 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 221.234 78.486 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 222.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 222.25 78.74 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "13be7220-5aa7-4deb-a11d-8cb308b762ab")
+		)
+		(pin "1"
+			(uuid "c2618aab-e62a-42c8-889e-84461905e45b")
+		)
+		(instances
+			(project "SPWM_Inv"
+				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 187.96 54.61 0)
 		(unit 1)
@@ -6942,7 +6949,7 @@
 				)
 			)
 		)
-		(property "Value" "200k"
+		(property "Value" "100k"
 			(at 215.9 69.85 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7123,7 +7130,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00078_1x02_P10.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 193.04 45.72 0)
 			(hide yes)
 			(show_name no)
@@ -7856,7 +7863,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical"
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical"
 			(at 201.93 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -8236,7 +8243,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_RND:TerminalBlock_RND_205-00078_1x02_P10.00mm_Horizontal"
+		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
 			(at 130.81 33.02 0)
 			(hide yes)
 			(show_name no)
@@ -8358,6 +8365,88 @@
 			(project "SPWM_Inv"
 				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
+		(at 165.1 49.53 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "faf39af4-51c9-4a0b-b9bd-f8ec0162bee4")
+		(property "Reference" "C7"
+			(at 168.91 47.6249 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220uF"
+			(at 168.91 50.1649 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
+			(at 165.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 165.1 49.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9eba4dd8-fd34-4718-a525-6a4f7372c1ce")
+		)
+		(pin "2"
+			(uuid "3de8934b-307d-4bb5-86b3-9cd10072917b")
+		)
+		(instances
+			(project "SPWM_Inv"
+				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
+					(reference "C7")
 					(unit 1)
 				)
 			)
