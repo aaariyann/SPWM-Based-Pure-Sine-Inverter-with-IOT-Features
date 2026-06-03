@@ -728,158 +728,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Fuse"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "F"
-				(at 2.032 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Fuse"
-				(at -1.905 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "fuse"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*Fuse*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Fuse_0_1"
-				(rectangle
-					(start -0.762 -2.54)
-					(end 0.762 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Fuse_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:L"
 			(pin_numbers
 				(hide yes)
@@ -3016,12 +2864,6 @@
 		(uuid "00ee6584-57ca-48f8-ac45-3b86edf7ad85")
 	)
 	(junction
-		(at 176.53 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c0ac95c-a155-45a0-84f9-ffda68c0d32d")
-	)
-	(junction
 		(at 149.86 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3058,6 +2900,12 @@
 		(uuid "438b4900-11c3-4ebd-8727-769dbf286109")
 	)
 	(junction
+		(at 165.1 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "44e769df-ecb4-4edd-ae31-f74ea957a8f7")
+	)
+	(junction
 		(at 149.86 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3082,10 +2930,10 @@
 		(uuid "6c1f5632-ee24-4839-8702-5de746d7fe9a")
 	)
 	(junction
-		(at 176.53 53.34)
+		(at 187.96 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "780e6a29-db8b-48be-856c-6033a3f243a8")
+		(uuid "775e67e5-ffa0-48ca-8891-bee068f6a1ed")
 	)
 	(junction
 		(at 72.39 64.77)
@@ -3106,22 +2954,10 @@
 		(uuid "8217221f-8286-414b-8f24-d112aae2e879")
 	)
 	(junction
-		(at 165.1 45.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "90a6f9dc-a1a0-4c9d-82be-7766803894a0")
-	)
-	(junction
 		(at 101.6 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "923ec7f6-4ee4-4b9f-a79b-687ebdb82559")
-	)
-	(junction
-		(at 187.96 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "940bf131-66b7-44cc-8c15-00222332aad4")
 	)
 	(junction
 		(at 116.84 96.52)
@@ -3363,7 +3199,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 110.49) (xy 236.22 110.49)
+			(xy 231.14 110.49) (xy 243.84 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3503,16 +3339,6 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 45.72) (xy 176.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d412e79-18e8-4c54-bbe4-55b471959583")
-	)
-	(wire
-		(pts
 			(xy 143.51 120.65) (xy 147.32 120.65)
 		)
 		(stroke
@@ -3520,6 +3346,16 @@
 			(type default)
 		)
 		(uuid "2ed18704-4e9f-46fe-9384-c1262246496c")
+	)
+	(wire
+		(pts
+			(xy 165.1 46.99) (xy 165.1 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "324ebaf5-5d13-4873-9492-3705c8ee6d02")
 	)
 	(wire
 		(pts
@@ -3610,16 +3446,6 @@
 			(type default)
 		)
 		(uuid "3b00af1c-df67-40ad-b358-6d44d228c7b6")
-	)
-	(wire
-		(pts
-			(xy 187.96 53.34) (xy 187.96 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b60588b-6de0-4272-a44a-36d305ff7ae9")
 	)
 	(wire
 		(pts
@@ -3743,6 +3569,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 49.53) (xy 187.96 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b29a339-a7cf-4350-a564-88dab9a1f0be")
+	)
+	(wire
+		(pts
 			(xy 222.25 72.39) (xy 222.25 74.93)
 		)
 		(stroke
@@ -3833,7 +3669,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 53.34) (xy 176.53 53.34)
+			(xy 165.1 53.34) (xy 187.96 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4023,16 +3859,6 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 45.72) (xy 187.96 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cc72e6e-1ec2-44e4-8c09-6012a3f7b689")
-	)
-	(wire
-		(pts
 			(xy 170.18 147.32) (xy 170.18 143.51)
 		)
 		(stroke
@@ -4060,6 +3886,16 @@
 			(type default)
 		)
 		(uuid "8ff727b0-b6a2-4242-a260-3ee9cee4e96a")
+	)
+	(wire
+		(pts
+			(xy 187.96 46.99) (xy 165.1 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "910f1093-7f2c-4190-bfdd-019dab1c5bd8")
 	)
 	(wire
 		(pts
@@ -4100,16 +3936,6 @@
 			(type default)
 		)
 		(uuid "97d04eff-60df-4969-9ac1-b3973ebac709")
-	)
-	(wire
-		(pts
-			(xy 176.53 53.34) (xy 187.96 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98c14774-0b81-42c7-b214-bfdb8e831d94")
 	)
 	(wire
 		(pts
@@ -5120,86 +4946,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Fuse")
-		(at 240.03 110.49 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "34a6c6c8-2ef8-4345-b304-7ef3422df0d6")
-		(property "Reference" "F1"
-			(at 240.03 104.14 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Fuse"
-			(at 240.03 106.68 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Fuse:Fuseholder_Littelfuse_100_series_5x20mm"
-			(at 240.03 112.268 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 240.03 110.49 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "820aa5a4-4149-4952-899e-ef38f1bd024e")
-		)
-		(pin "1"
-			(uuid "fb85eadb-189d-4ff7-95d5-53cc8e6df32c")
-		)
-		(instances
-			(project "SPWM_Inv"
-				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
-					(reference "F1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
 		(at 77.47 57.15 0)
 		(unit 1)
@@ -5998,88 +5744,6 @@
 			(project "SPWM_Inv"
 				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
 					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 176.53 49.53 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5df5ee86-4b61-4dfa-b909-fc18d97d6078")
-		(property "Reference" "C4"
-			(at 180.34 47.6249 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220uF"
-			(at 180.34 50.1649 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:CP_Radial_D30.0mm_P10.00mm_SnapIn"
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 176.53 49.53 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "bade3992-660b-4664-96bc-a4239569157f")
-		)
-		(pin "2"
-			(uuid "0c04dbfb-ade6-4778-9229-404e32651a2f")
-		)
-		(instances
-			(project "SPWM_Inv"
-				(path "/0af0628e-6d85-4083-8352-cf0f74a0e956/a65e72d1-f350-4e27-a885-8447587838f2"
-					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -7622,7 +7286,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock_Dinkle:TerminalBlock_Dinkle_DT-55-B01X-02_P10.00mm"
+		(property "Footprint" "TerminalBlock_Ningbo-Kagnex:TerminalBlock_Ningbo-Kagnex_HB9500M_1x02_P9.5mm"
 			(at 248.92 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -7760,7 +7424,8 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x02")
-		(at 193.04 45.72 0)
+		(at 193.04 49.53 0)
+		(mirror x)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7768,10 +7433,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c6ef17cb-9eb3-4dbd-b6e3-ed1bcb13b102")
 		(property "Reference" "J2"
-			(at 195.58 45.7199 0)
+			(at 195.58 49.5301 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7782,7 +7446,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 195.58 48.2599 0)
+			(at 195.58 46.9901 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7793,8 +7457,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TerminalBlock:TerminalBlock_MaiXu_MX126-5.0-02P_1x02_P5.00mm"
-			(at 193.04 45.72 0)
+		(property "Footprint" "TerminalBlock_Ningbo-Kagnex:TerminalBlock_Ningbo-Kagnex_HB9500M_1x02_P9.5mm"
+			(at 193.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7805,7 +7469,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 45.72 0)
+			(at 193.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7816,7 +7480,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 193.04 45.72 0)
+			(at 193.04 49.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
